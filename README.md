@@ -12,9 +12,9 @@ Adds the ability to encode crafting patterns in the Expanded Processing Pattern 
 
 Ported from the GTNH fork of AE2.
 
-- **Spatial Link Chamber:** put a Spatial Storage Cell in it to link the cell's contents to the chamber's network. The chamber uses one channel. The "Dive in" button teleports you into the cell. Shift-right-click with empty hands does the same.
-- **Spatial Network Relay:** place it inside a spatial cell. While that cell sits in a powered Spatial Link Chamber, the relay joins the chamber's network, giving the cell up to 31 channels without Quantum Network Bridges.
-- **Matrix Frame:** the walls around a spatial cell can now be targeted and built against. Sneak-right-click one with an empty hand to return to the Spatial Link Chamber holding the cell.
+- **Spatial Link Chamber:** put a spatial storage cell in it to link it to the chamber's network. The chamber uses one channel. Use the big Dive in button to enter. Shift + right-click with empty hands does the same.
+- **Spatial Network Relay:** place it inside a spatial cell. While its in a connected spatial link chamber, the relay connects to the chamber's network, giving the cell access to 31 channels, no need for a quantum link.
+- **Matrix Frame:** the walls around a spatial cell can now be built against. Sneak + right click on one with an empty hand to return to the Spatial Link Chamber holding the cell.
 
 - Make sure your network outside is chunkloaded and has power or you will not be able to get out! Also, if using the network relay, chunkload the inside of the cell so that your channels don't disconnect when you leave! If you forget and get stuck, there is this little cool command called `/forge setdimension [username] 0`.
 
@@ -25,7 +25,7 @@ Ported from the GTNH fork of AE2.
 
 Ported from [ExtendedAE](https://github.com/GlodBlock/ExtendedAE).
 
-A Formation Plane that works like an Export Bus: it pulls the items in its filter out of network storage and places them as blocks or drops them in front of it. It is never used as storage, so it doesn't need a subnet. It accepts Capacity, Speed (more items per drop), Fuzzy, Inverter, Crafting and Redstone cards.
+A formation plane that works like an export bus, no need for a subnet anymore.
 
 Here is an example of constantly placing iron ore from the main net using vanilla AE2UEL vs the Active Formation Plane!
 ![example](examples/activeformationplane.png "Old vs New!")
