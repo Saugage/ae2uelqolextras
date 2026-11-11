@@ -18,8 +18,8 @@ Ported from the GTNH fork of AE2.
 
 - Make sure your network outside is chunkloaded and has power or you will not be able to get out! Also, if using the network relay, chunkload the inside of the cell so that your channels don't disconnect when you leave! If you forget and get stuck, there is this little cool command called `/forge setdimension [username] 0`.
 
-![example](examples\spatiallinkchamber.png "Take a look at the Spatial Link Chamber")
-![example](examples\spatialnetworkrelay.png "This is the Spatial Network Relay on, inside a Spatial Link Chamber")
+![example](examples/spatiallinkchamber.png "Take a look at the Spatial Link Chamber")
+![example](examples/spatialnetworkrelay.png "This is the Spatial Network Relay on, inside a Spatial Link Chamber")
 
 ### ME Active Formation Plane
 
@@ -28,7 +28,7 @@ Ported from [ExtendedAE](https://github.com/GlodBlock/ExtendedAE).
 A Formation Plane that works like an Export Bus: it pulls the items in its filter out of network storage and places them as blocks or drops them in front of it. It is never used as storage, so it doesn't need a subnet. It accepts Capacity, Speed (more items per drop), Fuzzy, Inverter, Crafting and Redstone cards.
 
 Here is an example of constantly placing iron ore from the main net using vanilla AE2UEL vs the Active Formation Plane!
-![example](examples\activeformationplane.png "Old vs New!")
+![example](examples/activeformationplane.png "Old vs New!")
 
 ## Dependencies
 
