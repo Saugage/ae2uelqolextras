@@ -1,0 +1,7 @@
+tile.ae2qolextras.spatial_link_chamber.name=Spatial Link Chamber
+tile.ae2qolextras.spatial_network_relay.name=Spatial Network Relay
+
+gui.ae2qolextras.teleport_inside=Dive in
+
+item.ae2qolextras.active_formation_plane.name=ME Active Formation Plane
+gui.ae2qolextras.active_formation_plane=ME Active Formation Plane

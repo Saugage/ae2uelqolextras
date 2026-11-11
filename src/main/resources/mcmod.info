@@ -1,0 +1,12 @@
+[{
+    "modid": "${modid}",
+    "name": "${modname}",
+    "description": "QOL Extras for Applied Energistics 2 UEL",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "",
+    "url": "",
+    "authorList": ["gangmembersigma"],
+    "credits": "See the github for all the original awesome projects that were ported!",
+    "dependencies": []
+}]

@@ -1,0 +1,56 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.engineering_processor"
+                },
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.wireless"
+                },
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.purified_fluix_crystal"
+                },
+                {
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "cable_glass.fluix"
+                }
+            ]
+        }
+    ],
+    "result": {
+        "item": "ae2qolextras:spatial_network_relay"
+    },
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "aba",
+        "cdc",
+        "ece"
+    ],
+    "key": {
+        "a": {
+            "type": "appliedenergistics2:part",
+            "part": "material.engineering_processor"
+        },
+        "b": {
+            "type": "appliedenergistics2:part",
+            "part": "material.wireless"
+        },
+        "c": {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+        },
+        "d": {
+            "type": "appliedenergistics2:part",
+            "part": "material.purified_fluix_crystal"
+        },
+        "e": {
+            "type": "appliedenergistics2:part",
+            "part": "cable_glass.fluix"
+        }
+    }
+}

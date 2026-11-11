@@ -1,0 +1,58 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "appliedenergistics2:spatial_pylon"
+                },
+                {
+                    "type": "minecraft:item_exists",
+                    "item": "appliedenergistics2:chest"
+                },
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.wireless"
+                },
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.cell128_spatial_part"
+                },
+                {
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "cable_glass.fluix"
+                }
+            ]
+        }
+    ],
+    "result": {
+        "item": "ae2qolextras:spatial_link_chamber"
+    },
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "aba",
+        "cdc",
+        "cec"
+    ],
+    "key": {
+        "a": {
+            "item": "appliedenergistics2:spatial_pylon"
+        },
+        "b": {
+            "type": "appliedenergistics2:part",
+            "part": "material.wireless"
+        },
+        "c": {
+            "type": "appliedenergistics2:part",
+            "part": "cable_glass.fluix"
+        },
+        "d": {
+            "item": "appliedenergistics2:chest"
+        },
+        "e": {
+            "type": "appliedenergistics2:part",
+            "part": "material.cell128_spatial_part"
+        }
+    }
+}

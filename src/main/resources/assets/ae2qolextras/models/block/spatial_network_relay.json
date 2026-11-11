@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "ae2qolextras:blocks/spatial_network_relay"
+    }
+}

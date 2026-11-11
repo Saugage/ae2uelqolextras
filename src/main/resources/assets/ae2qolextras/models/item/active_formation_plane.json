@@ -1,0 +1,6 @@
+{
+    "parent": "appliedenergistics2:item/part/annihilation_plane",
+    "textures": {
+        "plane": "ae2qolextras:items/part/active_formation_plane"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "package": "com.ae2qolextras.mixin",
+  "refmap": "mixins.ae2qolextras.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ContainerPatternEncoderAccessor",
+    "MixinBlockMatrixFrame",
+    "MixinContainerExpandedProcessingPatternTerm",
+    "MixinPartExpandedProcessingPatternTerminal"
+  ],
+  "client": [
+    "MixinGuiExpandedProcessingPatternTerm"
+  ],
+  "server": []
+}

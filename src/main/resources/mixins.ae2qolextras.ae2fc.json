@@ -1,0 +1,12 @@
+{
+  "package": "com.ae2qolextras.mixin.ae2fc",
+  "refmap": "mixins.ae2qolextras.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "MixinExtendedFluidPatternTerminalRecipeTransferHandler"
+  ],
+  "server": []
+}

@@ -1,0 +1,47 @@
+{
+    "conditions": [
+        {
+            "type": "forge:and",
+            "values": [
+                {
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "part.formation_plane"
+                },
+                {
+                    "type": "appliedenergistics2:part_exists",
+                    "part": "part.export_bus"
+                },
+                {
+                    "type": "appliedenergistics2:material_exists",
+                    "material": "material.formation_core"
+                }
+            ]
+        }
+    ],
+    "result": {
+        "item": "ae2qolextras:active_formation_plane"
+    },
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "cpc",
+        "fef"
+    ],
+    "key": {
+        "c": {
+            "type": "appliedenergistics2:part",
+            "part": "material.formation_core"
+        },
+        "p": {
+            "type": "appliedenergistics2:part",
+            "part": "part.formation_plane"
+        },
+        "f": {
+            "type": "forge:ore_dict",
+            "ore": "crystalFluix"
+        },
+        "e": {
+            "type": "appliedenergistics2:part",
+            "part": "part.export_bus"
+        }
+    }
+}

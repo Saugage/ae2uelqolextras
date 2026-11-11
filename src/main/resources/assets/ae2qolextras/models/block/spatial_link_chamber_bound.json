@@ -1,0 +1,6 @@
+{
+    "parent": "ae2qolextras:block/spatial_link_chamber",
+    "textures": {
+        "north": "ae2qolextras:blocks/spatial_link_chamber_front_full"
+    }
+}

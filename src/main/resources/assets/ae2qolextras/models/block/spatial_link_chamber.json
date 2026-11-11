@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "ae2qolextras:blocks/spatial_link_chamber_side",
+        "up": "ae2qolextras:blocks/spatial_link_chamber",
+        "down": "ae2qolextras:blocks/spatial_link_chamber_bottom",
+        "north": "ae2qolextras:blocks/spatial_link_chamber_front",
+        "south": "ae2qolextras:blocks/spatial_link_chamber_side",
+        "east": "ae2qolextras:blocks/spatial_link_chamber_side",
+        "west": "ae2qolextras:blocks/spatial_link_chamber_side"
+    }
+}

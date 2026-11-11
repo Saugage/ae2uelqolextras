@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "bound=false,facing=north": { "model": "ae2qolextras:spatial_link_chamber" },
+        "bound=false,facing=east": { "model": "ae2qolextras:spatial_link_chamber", "y": 90 },
+        "bound=false,facing=south": { "model": "ae2qolextras:spatial_link_chamber", "y": 180 },
+        "bound=false,facing=west": { "model": "ae2qolextras:spatial_link_chamber", "y": 270 },
+        "bound=true,facing=north": { "model": "ae2qolextras:spatial_link_chamber_bound" },
+        "bound=true,facing=east": { "model": "ae2qolextras:spatial_link_chamber_bound", "y": 90 },
+        "bound=true,facing=south": { "model": "ae2qolextras:spatial_link_chamber_bound", "y": 180 },
+        "bound=true,facing=west": { "model": "ae2qolextras:spatial_link_chamber_bound", "y": 270 }
+    }
+}

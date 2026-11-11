@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "connected=false": { "model": "ae2qolextras:spatial_network_relay" },
+        "connected=true": { "model": "ae2qolextras:spatial_network_relay_connected" }
+    }
+}
