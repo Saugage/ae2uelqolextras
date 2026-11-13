@@ -5,13 +5,8 @@
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ContainerPatternEncoderAccessor",
-    "MixinBlockMatrixFrame",
-    "MixinContainerExpandedProcessingPatternTerm",
-    "MixinPartExpandedProcessingPatternTerminal"
+    "MixinBlockMatrixFrame"
   ],
-  "client": [
-    "MixinGuiExpandedProcessingPatternTerm"
-  ],
+  "client": [],
   "server": []
 }

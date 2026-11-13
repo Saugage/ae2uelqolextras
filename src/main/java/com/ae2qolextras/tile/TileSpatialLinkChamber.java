@@ -7,6 +7,7 @@ import appeng.api.networking.events.MENetworkBootingStatusChange;
 import appeng.api.networking.events.MENetworkChannelsChanged;
 import appeng.api.networking.events.MENetworkEventSubscribe;
 import appeng.api.networking.events.MENetworkPowerStatusChange;
+import appeng.api.networking.pathing.IPathingGrid;
 import appeng.api.storage.ISpatialDimension;
 import appeng.api.util.AECableType;
 import appeng.api.util.AEPartLocation;
@@ -124,6 +125,16 @@ public class TileSpatialLinkChamber extends AENetworkInvTile implements ITickabl
     private void updateBinding() {
         final IGridNode node = this.getProxy().getNode();
         if (node == null || !node.isActive()) {
+            if (node != null) {
+                final IPathingGrid pathing = node.getGrid().getCache(IPathingGrid.class);
+                if (pathing.isNetworkBooting()) {
+                    return;
+                }
+            }
+            if (this.boundCellId != SpatialLinkRegistry.NO_CELL) {
+                this.unbind();
+                this.markForUpdate();
+            }
             return;
         }
 

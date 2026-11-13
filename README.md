@@ -6,7 +6,7 @@ A Minecraft 1.12.2 addon for [AE2 Unofficial Extended Life](https://github.com/A
 
 ### Expanded Processing Pattern Terminal tweaks
 
-Adds the ability to encode crafting patterns in the Expanded Processing Pattern Terminal, with compatibility with AE2 Fluid Crafting Rework. If you get any issues with the Expanded Processing Pattern Terminal, make an issue here before going to any other mods.
+Adds the ability to encode crafting patterns in the Expanded Processing Pattern Terminal, with compatibility with AE2 Fluid Crafting Rework. If you get any issues with the Expanded Processing Pattern Terminal, make an issue here before going to any other mods. There is also an option in the config to disable it.
 
 ### Spatial Link Chamber and Spatial Network Relay
 
