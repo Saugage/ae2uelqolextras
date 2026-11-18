@@ -41,7 +41,7 @@ Here is an example of constantly placing iron ore from the main net using vanill
 
 ### Other Version Compatibility
 
-- I have tested the mod with AE2UEL v0.56.5 and did not find any issues besides that the Expanded Processing Pattern Terminal tweaks just dont work. I didnt experience any crashes, but disable the config setting just to be safe.
+- I have tested the mod with AE2UEL v0.56.5 and did not find any issues besides that the Expanded Processing Pattern Terminal tweaks just does not work. I didnt experience any crashes, but disable the config setting just to be safe.
 
 If you are using AE2 Fluid Crafting Rework v2.6.6-r, set `expandedPatternTerminalTweaks=false` or it will cause a crash when importing a crafting recipe from jei in to the terminal.
 
