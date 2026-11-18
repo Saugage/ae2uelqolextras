@@ -39,6 +39,10 @@ Here is an example of constantly placing iron ore from the main net using vanill
 
 - [AE2 Fluid Crafting Unofficial](https://github.com/Circulate233/AE2FluidCraft-Rework-Unofficial) - v2.7.10
 
+### Other Version Compatibility
+
+- I have tested the mod with AE2UEL v0.56.5 and did not find any issues. If you are using AE2 Fluid Crafting Rework v2.6.6-r, set `expandedPatternTerminalTweaks=false` or it will cause a crash when importing a crafting recipe from jei in to the terminal. I do not plan on supporting these versions, but will keep this section updated as I know a lot of modpacks prefer v0.56.5 due to bugs with v0.56.7. Hopefully a new AE2UEL fork comes soon!
+
 ## Credits
 
 - The Spatial Link Chamber and Spatial Network Relay were designed and originally written by [kuba6000](https://github.com/kuba6000) for [GTNewHorizons/Applied-Energistics-2-Unofficial#1035](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1035). It is licensed under LGPL-3.0.
